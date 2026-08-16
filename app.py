@@ -4,7 +4,7 @@ from sklearn.tree import DecisionTreeClassifier
 import gradio as gr
 
 # 1. Read the giant book of sicknesses
-flashcards = pd.read_csv("Final_Augmented_dataset_Diseases_and_Symptoms.csv")
+flashcards = pd.read_csv("Final_Augmented_dataset_Diseases_and_Symptoms.zip")
 clues = flashcards.drop('diseases', axis=1) 
 answers = flashcards['diseases']
 
